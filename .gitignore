@@ -1,0 +1,5 @@
+# The registry signing key is a credential: it authorises publishing under the
+# ai.campaignpack/* namespace. It lives outside this repository entirely; this
+# is belt and braces against the keygen commands being run in the wrong folder.
+*.pem
+*.key
