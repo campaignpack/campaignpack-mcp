@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "ai.campaignpack/campaignpack",
+  "description": "Turn a product photo and a brief into a complete ad campaign: plan, ideas, ad and social scripts, a creator brief, product stills and a client-ready PDF. Runs on Campaign Pack's own GPUs, so no third-party model provider sees the product.",
+  "version": "0.1.0",
+  "websiteUrl": "https://campaignpack.ai",
+  "repository": {
+    "url": "https://github.com/campaignpack/campaignpack-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://tools.campaignpack.ai/mcp"
+    }
+  ]
+}

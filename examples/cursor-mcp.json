@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "campaignpack": {
+      "url": "https://tools.campaignpack.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer cpk_REPLACE_WITH_YOUR_TOKEN"
+      }
+    }
+  }
+}
