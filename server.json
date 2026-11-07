@@ -1,9 +1,22 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "ai.campaignpack/campaignpack",
+  "title": "Campaign Pack",
   "description": "Turn a product photo and a brief into a full ad campaign: scripts, stills, client-ready PDF.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://campaignpack.ai",
+  "icons": [
+    {
+      "src": "https://campaignpack.ai/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    },
+    {
+      "src": "https://campaignpack.ai/apple-touch-icon.png",
+      "mimeType": "image/png",
+      "sizes": ["180x180"]
+    }
+  ],
   "repository": {
     "url": "https://github.com/campaignpack/campaignpack-mcp",
     "source": "github"
