@@ -94,10 +94,14 @@ product images are not usable in an ad.
 
 ## Sharing a live run
 
-A campaign you start from your own assistant can be opened by a teammate from
-*theirs*, while it is still running. They follow it, can stop it, answer the
-approval prompts it raises, and take the next turn when it finishes. Their files
-land in the same folder, not a copy.
+A campaign you start from your own assistant can be followed by a teammate from
+*theirs*, while it is still running. From their own account they can watch its
+progress, answer the approval prompts it raises, stop it, and read the finished
+pack. It is the same campaign in the same folder, not a copy.
+
+Continuing a finished campaign with another turn is a browser job today — the
+tools here start a campaign and follow it, they do not add turns to one that has
+already run.
 
 ```
 share_campaign(session_id, "teammate@company.com")
