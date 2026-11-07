@@ -1,5 +1,7 @@
 # Campaign Pack MCP server
 
+[![mcptry](https://mcptry.com/badge/ai.campaignpack/campaignpack)](https://mcptry.com/servers/ai.campaignpack/campaignpack)
+
 Turn a product photo and a couple of sentences into a finished ad campaign —
 without leaving Claude, Claude Code or Cursor.
 
